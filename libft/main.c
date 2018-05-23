@@ -1,4 +1,5 @@
 // /mnt/c/Users/Raphael/Desktop/github/ecole_42
+#include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
 #include "libft.h"
@@ -51,8 +52,18 @@ int main(void)
     // printf("strnstr()    -> %s\n", strnstr("Il était une fois la vie", "une fois", 3));
 
     // ft_strcmp()
-    // printf("ft_strcmp() -> %d\n", ft_strcmp("Il était une fois la vie", "unes", 10));
-    // printf("strcmp()    -> %d\n", strcmp("Il était une fois", "Il était une fois"));
+    // printf("ft_strcmp() -> %d\n", ft_strcmp("a z", "a z "));
+    // printf("strcmp()    -> %d\n", strcmp("a z", "a z "));
+
+    // ft_strncmp()
+    // printf("ft_strncmp() -> %d\n", ft_strncmp("", "aze", 20));
+    // printf("strncmp()    -> %d\n", strncmp("", "aze", 20));    
+
+    // ft_atoi()
+    // printf("ft_atoi() -> %d\n", ft_atoi("   -1213 12 a 12"));
+    // printf("atoi()    -> %d\n", atoi("  -1213  12a 12"));    
+
+
 
 
 
