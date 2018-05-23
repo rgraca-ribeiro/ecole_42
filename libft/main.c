@@ -10,7 +10,35 @@ int main(void)
     // size_t i = 50;
     // char dest[] = "This is america";
     // char src[] = "This a is car withoot to a bota";
+    char mem[] = "Salut les copains";
+    char mem2[] = "Il était une fois la vie e ze zezre zer ";
 
+    // ft_memset()
+    // memset(mem, 'a', 1);
+    // ft_memset(mem, 'a', 5);
+    // printf("mem: %s\n", mem);
+
+    // ft_bzero()
+    // bzero(mem, 10);
+    // ft_bzero(mem, 4);
+    // for (int i = 0; i < 20; i++)
+    //      printf("mem: %d\n", mem[i]);
+
+    // ft_memcpy()
+    // memcpy(mem, mem2, 50);
+    // ft_memcpy(mem, mem2, 50);
+    // printf("mem: %s\n", mem);
+
+    // ft_memccpy()
+    // memccpy(mem, mem2, 'x', 0);
+    // ft_memccpy(mem, mem2, 'x', 0);
+    // printf("mem: %s\n", mem);
+
+    // ft_memmove()
+    // memmove(mem, mem2, 10);
+    ft_memmove(mem, mem2, 10);
+    printf("mem: %s\n", mem);
+    
     // ft_strlen()
     // printf("ft_strlen() -> %d\n", ft_strlen("Il était une fois la vie"));
     // printf("strlen()    -> %d\n", strlen("Il était une fois la vie"));
@@ -63,11 +91,6 @@ int main(void)
     // printf("ft_atoi() -> %d\n", ft_atoi("   -1213 12 a 12"));
     // printf("atoi()    -> %d\n", atoi("  -1213  12a 12"));    
 
-
-
-
-
-
     // ft_isalpha()
     // printf("ft_isalpha() -> %d\n", ft_isalpha('a'));
     // printf("isalpha()    -> %d\n", isalpha('a'));
@@ -95,8 +118,5 @@ int main(void)
     // ft_tolower()
     // printf("ft_tolower() -> %c\n", ft_tolower('8'));
     // printf("tolower()    -> %c\n", tolower('8'));
-
-    
-    
     return(0);
 }
