@@ -1,13 +1,14 @@
 // /mnt/c/Users/Raphael/Desktop/github/ecole_42
 #include <string.h>
+#include <ctype.h>
 #include "libft.h"
 
 int main(void)
 {
-    int c = 97; 
-    size_t i = 50;
-    char dest[] = "This is america";
-    char src[] = "This a is car withoot to a bota";
+    // int c = 97; 
+    // size_t i = 50;
+    // char dest[] = "This is america";
+    // char src[] = "This a is car withoot to a bota";
 
     // ft_strlen()
     // printf("ft_strlen() -> %d\n", ft_strlen("Il était une fois la vie"));
@@ -41,6 +42,50 @@ int main(void)
     // printf("ft_strrchr() -> %s\n", ft_strrchr(src, '\0'));
     // printf("strrchr()    -> %s\n", strrchr(src, '\0'));    
 
+    // ft_strstr()
+    // printf("ft_strstr() -> %s\n", ft_strstr("Il était une fois la vie", "u"));
+    // printf("strstr()    -> %s\n", strstr("Il était une fois la vie", "u"));
+
+    // ft_strnstr()
+    // printf("ft_strnstr() -> %s\n", ft_strnstr("Il était une fois la vie", "unes", 10));
+    // printf("strnstr()    -> %s\n", strnstr("Il était une fois la vie", "une fois", 3));
+
+    // ft_strcmp()
+    // printf("ft_strcmp() -> %d\n", ft_strcmp("Il était une fois la vie", "unes", 10));
+    // printf("strcmp()    -> %d\n", strcmp("Il était une fois", "Il était une fois"));
+
+
+
+
+    // ft_isalpha()
+    // printf("ft_isalpha() -> %d\n", ft_isalpha('a'));
+    // printf("isalpha()    -> %d\n", isalpha('a'));
+    
+    // ft_isdigit()
+    // printf("ft_isdigit() -> %d\n", ft_isdigit('0'));
+    // printf("isdigit()    -> %d\n", isdigit('0'));
+    
+    // ft_isalnum()
+    // printf("ft_isalnum() -> %d\n", ft_isalnum('/'));
+    // printf("isalnum()    -> %d\n", isalnum('/'));
+    
+    // ft_isascii()
+    // printf("ft_isascii() -> %d\n", ft_isascii(108));
+    // printf("isascii()    -> %d\n", isascii(108));
+    
+    // ft_isprint()
+    // printf("ft_isprint() -> %d\n", ft_isprint(42));
+    // printf("isprint()    -> %d\n", isprint(42));
+
+    // ft_toupper()
+    // printf("ft_toupper() -> %c\n", ft_toupper('Z'));
+    // printf("toupper()    -> %c\n", toupper('Z'));
+
+    // ft_tolower()
+    // printf("ft_tolower() -> %c\n", ft_tolower('8'));
+    // printf("tolower()    -> %c\n", tolower('8'));
+
+    
     
     return(0);
 }
