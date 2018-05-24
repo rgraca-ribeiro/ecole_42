@@ -11,7 +11,7 @@ int main(void)
     // char dest[] = "This is america";
     // char src[] = "This a is car withoot to a bota";
     char mem[] = "Salut les copains";
-    char mem2[] = "Il était une fois la vie e ze zezre zer ";
+    char mem2[] = "Salut les copains";
 
     // ft_memset()
     // memset(mem, 'a', 1);
@@ -36,9 +36,17 @@ int main(void)
 
     // ft_memmove()
     // memmove(mem, mem2, 10);
-    ft_memmove(mem, mem2, 10);
-    printf("mem: %s\n", mem);
+    // ft_memmove(mem, mem2, 10);
+    // printf("mem: %s\n", mem);
     
+    // ft_memchr()
+    // printf("mem: %d\n", memchr(mem, '1', 10));
+    // printf("ft_mem: %s\n", ft_memchr(mem, '1', 10));
+
+    // ft_memcmp()
+    // printf("mem: %d\n", memcmp("", "", 10));
+    // printf("ft_mem: %d\n", ft_memcmp("", "", 10));
+
     // ft_strlen()
     // printf("ft_strlen() -> %d\n", ft_strlen("Il était une fois la vie"));
     // printf("strlen()    -> %d\n", strlen("Il était une fois la vie"));
