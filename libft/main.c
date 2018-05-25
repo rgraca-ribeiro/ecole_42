@@ -4,14 +4,17 @@
 #include <ctype.h>
 #include "libft.h"
 
+
+char printChar(unsigned int i, char c);
+
 int main(void)
 {
     // int c = 97; 
     // size_t i = 50;
     // char dest[] = "This is america";
     // char src[] = "This a is car withoot to a bota";
-    char mem[] = "Salut les copains";
-    char mem2[] = "Salut les copains";
+    // char mem[] = "Salut les copains";
+    // char mem2[] = "Salut les copains";
 
     // ft_memset()
     // memset(mem, 'a', 1);
@@ -126,5 +129,85 @@ int main(void)
     // ft_tolower()
     // printf("ft_tolower() -> %c\n", ft_tolower('8'));
     // printf("tolower()    -> %c\n", tolower('8'));
+    
+    // PART II
+
+    // ft_memalloc()
+    // char *ptr = ft_memalloc(5);
+    // for (int i = 0; i < 20; i++)
+    // {
+    //     printf("ft_memalloc() -> %d\n", ptr[i]);
+    // }
+
+    // ft_memdel()
+    // char *ptr = ft_memalloc(5);
+    // printf("1 ->\n");
+    // for (int i = 0; i < 10; i++)
+    //     printf("ptr: %d\n", ptr[i]);
+    // ft_memdel((void*)&ptr);
+    // ptr = ft_memalloc(2);
+    // printf("2 ->\n");    
+    // for (int i = 0; i < 10; i++)
+    //     printf("ptr: %d\n", ptr[i]);
+
+    // ft_strnew()
+    // char *ptr = ft_strnew(5);
+    // for (int i = 0; i < 10; i++)
+    // {
+    //     printf("ft_strnew() -> %c\n", ptr[i]);
+    // }
+
+    // ft_strdel()
+    // char *ptr = ft_strnew(5);
+    // for (int i = 0; i < 10; i++)
+    // {
+    //     printf("ft_strdel() -> %c\n", ptr[i]);
+    // }
+    // ft_strdel(&ptr);
+
+    // ft_strclr()
+    // char ptr[] = "Salut les copains";
+    // printf("ft_strclr() -> %s\n", ptr);
+    // ft_strclr(ptr);
+    // printf("ft_strclr() -> %s\n", ptr);
+
+    // ft_striter()
+    // char ptr[] = "Salut les copains";
+    // ft_striter(ptr, printChar);
+
+    // ft_striteri()
+    // char ptr[] = "Salut les copains";
+    // ft_striteri(ptr, printChar);
+
+    // ft_strmap()
+    // char ptr[] = "Salut les copains";
+    // char *str;
+    // printf("Before Str: %s\n", str);
+    // str = ft_strmap(ptr, printChar);
+    // printf("After Str: %s\n", str);
+
+    // ft_strmapi()
+    // char ptr[] = "Salut les copains";
+    // char *str;
+    // printf("Before Str: %s\n", str);
+    // str = ft_strmapi(ptr, printChar);
+    // printf("After Str: %s\n", str);
+    // ft_strdel(&str);
+    // printf("After Str: %s\n", str);
+    
+    // ft_strequ()
+    // printf("Value: %d\n", ft_strequ("Salu les copains", "Salut les copains"));
+    
+    // ft_strnequ()
+    // printf("Value: %d\n", ft_strnequ("Sslut les copains", "Salut les copains", 6));
+    
+    // ft_strsub()
+    printf("Value: %s\n", ft_strsub("Salut les copains", 2, 10));
     return(0);
+}
+
+char printChar(unsigned int i, char c)
+{
+    printf("int: %d char: %c\n", i, c);
+    return (c);
 }
