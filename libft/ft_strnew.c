@@ -10,5 +10,6 @@ char *ft_strnew(size_t size)
     if (!ptr)
         return (NULL);
     ft_bzero(ptr, size);
+    ptr[size] = '\0';
     return (ptr);
 }

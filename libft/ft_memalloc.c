@@ -9,6 +9,6 @@ void *ft_memalloc(size_t size)
     ptr = (void*)malloc(sizeof(ptr) * size);
     if (!ptr)
         return (NULL);
-    ptr = ft_memset(ptr, 'a', size);
+    ptr = ft_memset(ptr, '\0', size);
     return(ptr);
 }

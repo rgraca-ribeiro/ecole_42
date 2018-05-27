@@ -13,6 +13,7 @@ char *ft_strsub(char const *s, unsigned int start, size_t len)
     ptr = ft_memalloc(total + 1);
     if (!ptr)
         return(NULL);
+    ptr[total] = '\0';
     total = 0;
     while (start < len)
     {

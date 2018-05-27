@@ -202,8 +202,19 @@ int main(void)
     // printf("Value: %d\n", ft_strnequ("Sslut les copains", "Salut les copains", 6));
     
     // ft_strsub()
-    printf("Value: %s\n", ft_strsub("Salut les copains", 2, 10));
-    return(0);
+    // printf("Value: %s\n", ft_strsub("Salut les copains", 2, 10));
+    
+    // ft_strjoin()
+    // char *ptr;
+    // printf("Value: %s\n", ft_strjoin("Bonjour je m'appel ", "Raphael"));
+    // ptr = ft_strjoin("Bonjour je m'appel ", "Raphael");
+    // for (int i = 0; i < 50; i++)
+    //     printf("Value: %c\n", ptr[i]);
+    // return(0);
+
+    // ft_strtrim()
+    // printf("Value: %s\n", ft_strtrim('\0'));
+
 }
 
 char printChar(unsigned int i, char c)
