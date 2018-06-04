@@ -215,6 +215,30 @@ int main(void)
     // ft_strtrim()
     // printf("Value: %s\n", ft_strtrim('\0'));
 
+    // ft_strsplit()
+    // printf("Value: %s\n", ft_strsplit("*salut*les***etudiants*", '*'));
+
+    // ft_itoa()
+    // printf("Value: %s\n", ft_itoa(32));
+
+    // ft_putchar()
+    // ft_putchar('c');
+
+    // ft_putstr()
+    // ft_putstr("Salut les copains");
+
+    // ft_putendl()
+    // ft_putendl("Salut les copains");
+
+    // ft_putnbr()
+    // ft_putnbr(541);
+
+    // ft_putchar_fd
+    // ft_putchar_fd('c', 2);
+
+    // ft_putstr_fd
+    // ft_putstr_fd("Salut les copains", 1);
+
 }
 
 char printChar(unsigned int i, char c)
