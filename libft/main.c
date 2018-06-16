@@ -1,11 +1,8 @@
-// /mnt/c/Users/Raphael/Desktop/github/ecole_42
+///mnt/c/Users/Raphael/Desktop/github/ecole_42/libft
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
 #include "libft.h"
-
-
-char printChar(unsigned int i, char c);
 
 int main(void)
 {
@@ -239,10 +236,15 @@ int main(void)
     // ft_putstr_fd
     // ft_putstr_fd("Salut les copains", 1);
 
-}
+    // ft_putstr_fd
+    // ft_putstr_fd("Salut les copains", 1);
 
-char printChar(unsigned int i, char c)
-{
-    printf("int: %d char: %c\n", i, c);
-    return (c);
+    // ft_lstnew
+    // t_list *list;
+    // list = ft_lstnew("salut", 6);
+    // list = ft_lstnew("Aurevoir", 9);
+    // ft_lstprint(list);
+
+    // ft_lstdelone();
+    return (0);
 }

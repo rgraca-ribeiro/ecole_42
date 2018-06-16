@@ -5,6 +5,13 @@
 # define LIBFT_H
 # include <stdio.h>
 
+typedef struct  s_list
+{
+    void *content;
+    size_t content_size;
+    struct s_list *next;
+}               t_list;
+
 // PART I
 void    *ft_memset(void *s, int c, size_t n);
 void    ft_bzero(void *s, size_t n);
@@ -59,6 +66,15 @@ void    ft_putchar_fd(char c, int fd);
 void    ft_putstr_fd(char const *s, int fd);
 void    ft_putendl_fd(char const *s, int fd);
 void    ft_putnbr_fd(int n, int fd);
+
+// PART III
+t_list  *ft_lstnew(void const *content, size_t content_size);
+void    ft_lstdelone(t_list **alst, void (*del)(void*, size_t));
+
+
+
+// Personnal fuctions
+void    ft_lstprint(t_list *list);
 
 
 #endif
